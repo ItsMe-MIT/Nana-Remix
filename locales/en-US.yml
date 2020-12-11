@@ -1,0 +1,100 @@
+# Language
+language_switch_success_pm: Your language preference has been updated to {}
+language_not_supported: "{} is not supported yet!"
+language_code_not_valid: That's not a valid language code. Use an internationally accepted ISO code!
+language_current_locale: "Current language selected: **{}**"
+language_select_language: "**Select language** \n"
+language_btn: "Language"
+# Assistant Help
+inline_help_text: "**Inline Guide**\nJust type `@{} (command)` in text box, and wait for response.\n\n──「 **Get Note from Inline** 」──\n-> `note (*notetag)`\nAnd wait for list of notes in inline, currently supports Text and Button only.\n\n──「 **Stylish Generator Inline** 」──\n-> `stylish (your text)`\nConvert a text to various style, can be used anywhere!\n\n* = Can be used as optional"
+start_message: "Hi {},\nNana is Ready at your Service!\n===================\n-> Python: `{}`\n-> Userbot: `{} (v{})`\n-> Assistant: `Running (v{})`\n-> Database: `{}`\n-> Group joined: `{}`\n===================\n`For more about the bot press the button down below`"
+help_btn: "Help"
+help_str: "You can use {} on your userbot to execute that commands.\nHere is current modules you have\nMain commands available:\n - /start: get your bot status\n - /stats: get your userbot status\n - /settings: settings your userbot\n - /getme: get your userbot profile info\n - /help: get this menu"
+alive_str: "**[Nana-Remix](https://github.com/pokurt/Nana-Remix):**\n - **Bot**: `{} (v{})`\n - **Pyrogram**: `{}`\n - **Python**: `{}`\n - **Database**: `{}`\n"
+# Gdrive Assistant
+gdrive_credential_err_heroku: "Hello, look like you're not logged in to google drive 🙂 I can help you to login.\nFirst of all, you need to activate your google drive API\n1. [Go here](https://developers.google.com/drive/api/v3/quickstart/python),\nclick Enable the drive API\n2. Login to your google account (skip this if you're already logged in)\n3. After logged in, click Enable the drive API again,\nand click Download Client Configuration button, download that.\n4. After downloaded that file, open that file then copy all of that content go to dashboard.heroku.com, \nselect your apps and go to settings, go to config vars then add key with name gdrive_credentials with value your credentials\nAfter that, you can go next guide by type /gdrive"
+# Adminlist Module
+# Adminlist
+adminlist_one: "**Admins in {}**\n╒═══「 Creator 」\n"
+adminlist_two: "╞══「 {} Human Administrator 」\n"
+adminlist_three: "╞══「 {} Bot Administrator 」\n"
+adminlist_four: "╘══「 Total {} Admins 」"
+# ReportAdmins
+reportadmins_one: "{} reported to admins."
+reportadmins_two: "Calling admins in {}."
+# tagall
+tagall: "Hi all!"
+# botlist
+botlist_one: "☠️ Deleted account"
+botlist_two: "**All bots in group {}**\n"
+botlist_three: "╒═══「 Bots 」\n"
+botlist_four: "╘══「 Total {} Bots 」"
+# Admins Module
+# errors
+user_invalid: "`invalid username`"
+peer_invalid: "`invalid username or userid`"
+id_invalid: "`invalid userid`"
+denied_permission: "`permission denied`"
+# Invite_link
+invite_link: "**Generated Invite link for {}:**\n - **Join Link:** {}"
+# pin_message
+pin_message: "`Reply to a message to pin`"
+# mute
+mute_user: "`Reply to a user to mute them`"
+# unmute
+unmute_user: "`Reply to a user to unmute them`"
+# kick
+kick_user: "`Reply to a user to kick`"
+# ban
+ban_user: "`reply to a user to ban.`"
+# unban
+unban_user: "`Reply to a user to unban`"
+# promote
+promote_user: "`reply to a user to promote`"
+# demote
+demote_user: "`reply to a user to demote.`"
+# lock
+lock_all: "`Locked all permission from this Chat!`"
+lock_chat: "`Locked {} for this chat!`"
+# Unlock
+unlock_all: "`Unlocked all permission from this Chat!`"
+unlock_invalid: "`Invalid Unlock Type!`"
+unlock_chat: "`Unlocked {} for this chat!`"
+# viewlocks
+permission_view_str: "<b>Chat permissions:</b>\n<b>Send Messages:</b> {}\n<b>Send Media:</b> {}\n<b>Send Stickers:</b> {}\n<b>Send Animations:</b> {}\n<b>Can Play Games:</b> {}\n<b>Can Use Inline Bots:</b> {}\n<b>Webpage Preview:</b> {}\n<b>Send Polls:</b> {}\n<b>Change Info:</b> {}\n<b>Invite Users:</b> {}\n<b>Pin Messages:</b> {}\n"
+# SpeedTest Module
+# Speed-Test
+speed_test_trigger: "Select SpeedTest Mode"
+speed_test_running: "Runing a speedtest...."
+# Gdrive Assistant
+gdrive_credential_err: "Hello, look like you're not logged in to google drive 🙂\n\nI can help you to login.\n\nFirst of all, you need to activate your google drive API\n1. [Go here](https://developers.google.com/drive/api/v3/quickstart/python), click **Enable the drive API**\n2. Login to your google account (skip this if you're already logged in)\n3. After logged in, click **Enable the drive API** again, and click **Download Client Configuration** button, download that.\n4. After downloaded that file, open that file then copy all of that content, back to telegram then do .credentials (copy the content of that file)  do without bracket\n\nAfter that, you can go next guide by type /gdrive"
+# Settings Module
+settings_userbot_stop: "-> Userbot: `Stopped (v{})`\n"
+settings_userbot_running: "-> Userbot: `Running (v{})`\n"
+settings_assistant_running: "-> Assistant: `Running (v{})`\n"
+settings_database: "-> Database: `{}`\n"
+settings_python: "-> Python: `{}`\n"
+settings_userbot_stopbutton: "Stop Bot"
+settings_userbot_startbutton: "Start Bot"
+settings_userbot_restartbutton: "Restart Bot"
+settings_setstickerbutton: "Set Sticker"
+settings_change_repo_button: "Change Repo Source"
+settings_stats_botstart: "\n✅ Bot was started!"
+settings_stats_botstop: "\n❎ Bot was stopped!"
+settings_stats_botrestart: "\n✅ Bot was restarted!"
+settings_bot_stoprestart_err: "Userbot Already Stopped! Abort Restart"
+settings_bot_restarting: "Please wait for bot restarting..."
+speed_test_result: "**SpeedTest Results:**"
+speed_test_isp: "**ISP:**"
+speed_test_download: "**Download:**"
+speed_test_upload: "**Upload:**"
+speed_test_ping: "**Ping:**"
+speed_test_button_text: "Text"
+speed_test_button_image: "Image"
+# Updater
+updater_available_text: "**New UPDATE available for [{}]!**\n\n"
+update_now_btn: "🔄 Update Now!"
+update_successful: "**Updated successfully!**\n"
+update_welcome: "🎉 Welcome to Nana Bot v{} & Assistant v{}\n"
+updated_changelog: "\n──「 **Update changelogs** 」──\n"
+update_successful_force: "Successfully Force Updated!"
